@@ -8,7 +8,7 @@
 - **`random_forest.py`**: Builds on `decision_tree.py` to implement the random forest algorithm.
 - **`synthesis.py`**: Handles user interaction, asking questions to construct an input vector for the model to guess Pokémon.
 - **`main.py`**: Integrates all components and executes the application.
-- **'hot_encoded_resource.csv'**: Contains the dataset on which the decision tree trains
+- **`hot_encoded_resource.csv`**: Contains the dataset on which the decision tree trains
 
 ## Features
 
@@ -25,7 +25,8 @@ Smart synthesis.py with Neural Networks: Implementing a more intelligent version
 
 - numpy
 - pytorch
-- other required libraries
+- pandas
+- collections
 
 ## Contributor
 
