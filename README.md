@@ -8,6 +8,7 @@
 - **`random_forest.py`**: Builds on `decision_tree.py` to implement the random forest algorithm.
 - **`synthesis.py`**: Handles user interaction, asking questions to construct an input vector for the model to guess Pokémon.
 - **`main.py`**: Integrates all components and executes the application.
+- **'hot_encoded_resource.csv'**: Contains the dataset on which the decision tree trains
 
 ## Features
 
@@ -15,11 +16,17 @@
 - **Random Forest Enhancement**: Implements random forest for improved prediction accuracy.
 - **User Interaction**: Asks questions to users and constructs input vectors dynamically.
 
-## Installation
+## Future Improvements
+The current implementation’s accuracy is largely dependent on synthesis.py, which might affect performance. Planned improvements include:
 
-To set up the project, follow these steps:
+Smart synthesis.py with Neural Networks: Implementing a more intelligent version of synthesis.py using neural networks to enhance the accuracy of guesses and user interaction.
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/wanna-be-akinator.git
-   cd wanna-be-akinator
+## Requirements
+
+- numpy
+- pytorch
+- other required libraries
+
+## Contributor
+
+B M Manohara @Manohara-Ai
